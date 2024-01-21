@@ -8,7 +8,7 @@ import {
     COriginal, NodejsOriginalWordmark, SpringOriginalWordmark,
     Html5PlainWordmark, BootstrapOriginal, PythonOriginal,
     FirebasePlainWordmark, CplusplusOriginal, GithubOriginalWordmark,
-    MysqlOriginalWordmark
+    MysqlOriginalWordmark, ExpressOriginal
 }
     from 'devicons-react';
 import ProjectContainer from './ProjectContainer';
@@ -99,6 +99,7 @@ export default function Home() {
                 <ReactOriginalWordmark size="50" className="test"/>
                 <JavascriptOriginal size="50" className="test"/>
                 <NodejsOriginalWordmark size="50"  className="test"/>
+                <ExpressOriginal size="50"  className="test"/>
                 <Html5PlainWordmark size="50"  className="test"/>
                 <BootstrapOriginal size="50"  className="test"/>
                 <COriginal size="50"  className="test"/>
@@ -109,6 +110,7 @@ export default function Home() {
                 <CplusplusOriginal size="50"  className="test"/>
                 <GithubOriginalWordmark size="50"  className="test"/>
                 <MysqlOriginalWordmark size="50"  className="test"/>
+               
             </div>
             <hr></hr>
             <h3>Major Projects</h3>

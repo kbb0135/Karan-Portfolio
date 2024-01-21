@@ -29,6 +29,9 @@ body {
     height: 150px;
     object-fit: cover;
   }
+  a {
+    text-decoration:none;
+  }
   
   .bio-details {
     text-align: left;
@@ -41,5 +44,16 @@ body {
         padding: 30px;
     
     }
+
   }
-  
+  .footertest {
+    margin-right: 20px;
+    transition: transform 1s ease, scale 1s ease;
+  }
+  .test {
+    transition: transform 1s ease, scale 1s ease;
+}
+
+.footertest:hover {
+    transform: scale(1.6);
+}
