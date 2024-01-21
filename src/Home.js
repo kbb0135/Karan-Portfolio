@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Row from 'react-bootstrap/Row';
+import React from 'react'
+import htmlLearning from './Image-Container/htmlLearning.jpg';
 import Software from './Image-Container/software-engineer.png'
 import './style.css'
 import Header from './Header';
@@ -29,8 +29,34 @@ export default function Home() {
             hlink: "Link to Project",
             link: "https://github.com/kbb0135/Expense-MySQL"
         },
-        { image: UntApp, title: 'UNT-Canteen', description: 'Description 2' },
-        // Add more projects as needed
+        {
+            image: UntApp,
+            title: 'UNT-Canteen App',
+            description: 'Helps UNT student to order food online. Also has a admin and user mode where admin can send and notify users for coupon',
+            technology: "Technology Used",
+            techDescription: "React, JS, NodeJS, HTML, BootStrap, firebase",
+            hlink: "Link to Project",
+            link: "https://unt-canteen.web.app"
+        },
+        {
+            image: ChatApp,
+            title: 'Chat App',
+            description: 'Helps users to chat in real time and allows users to ',
+            technology: "Technology Used",
+            techDescription: "React, JS, NodeJS, HTML, firebase",
+            hlink: "Link to Project",
+            link: "https://github.com/kbb0135"
+        },
+        {
+            image: htmlLearning,
+            title: 'Learn HTML',
+            description: 'Helps users to learn HTML, CSS, and JavaScript in an interactive way. Users are able to learn HTML, CSS, and JavaScript through Quizes, flashcards and tutorial. Progress can be tracked and has a feature of student and user.',
+            technology: "Technology Used",
+            techDescription: "React, JS, NodeJS, HTML, firebase",
+            hlink: "Link to Project",
+            link: "https://kbb0135.github.io/CSC344Project/",
+        },
+       
     ];
 
     return (
@@ -40,21 +66,23 @@ export default function Home() {
                 <div className="left-container">
 
                     <h2>Fontend Developer</h2>
-                    <h6>Backend developer that </h6>
-                    <p>Art of turning ideas into interactive,<br /> user-friendly experiences</p>
+                    
+                    <p>"Art of turning ideas into interactive,<br /> user-friendly experiences"</p>
                 </div>
                 <div className="image-container">
                     <div className="center-container">
-                        <h2>Full Stack Developer</h2>
+                        <h2><u>Full Stack Developer</u></h2>
+                        <hr></hr>
                     </div>
 
                     <div className="p-container">
-                        <p>Name: Karan Budhathoki
+                        <p>Name: <b>Karan Budhathoki</b>
                         </p>
                     </div>
-                    <img src={Software}></img>
+                    <img src={Software} alt="software-img"></img>
                     <div className="center-container">
                     </div>
+                    <hr></hr>
 
                 </div>
                 <div className="right-container">
@@ -68,19 +96,19 @@ export default function Home() {
             <hr></hr>
             <h3>Technologies</h3>
             <div className='tech-container'>
-                <ReactOriginalWordmark size="50" />
-                <JavascriptOriginal size="50" />
-                <NodejsOriginalWordmark size="50" />
-                <Html5PlainWordmark size="50" />
-                <BootstrapOriginal size="50" />
-                <COriginal size="50" />
-                <JavaOriginalWordmark size="50" />
-                <SpringOriginalWordmark size="50" />
-                <PythonOriginal size="50" />
-                <FirebasePlainWordmark size="50" />
-                <CplusplusOriginal size="50" />
-                <GithubOriginalWordmark size="50" />
-                <MysqlOriginalWordmark size="50" />
+                <ReactOriginalWordmark size="50" className="test"/>
+                <JavascriptOriginal size="50" className="test"/>
+                <NodejsOriginalWordmark size="50"  className="test"/>
+                <Html5PlainWordmark size="50"  className="test"/>
+                <BootstrapOriginal size="50"  className="test"/>
+                <COriginal size="50"  className="test"/>
+                <JavaOriginalWordmark size="50"  className="test"/>
+                <SpringOriginalWordmark size="50"  className="test"/>
+                <PythonOriginal size="50"  className="test"/>
+                <FirebasePlainWordmark size="50"  className="test"/>
+                <CplusplusOriginal size="50"  className="test"/>
+                <GithubOriginalWordmark size="50"  className="test"/>
+                <MysqlOriginalWordmark size="50"  className="test"/>
             </div>
             <hr></hr>
             <h3>Major Projects</h3>
