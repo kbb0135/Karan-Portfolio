@@ -170,6 +170,8 @@ export default function About() {
                                         <BootstrapOriginal size="35" className="test" />
                                         <Css3PlainWordmark size="35" className="test" />
                                         <FirebasePlainWordmark size="35" className="test" />
+                                        <br></br><br></br>
+                                        <h5>Link to site</h5>
                                         <Button variant="info" size="lg">
                                             <a href="https://kbb0135.github.io/CSC344Project/">Learn HTML</a>
                                         </Button>

@@ -4,19 +4,20 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { Link } from 'react-router-dom';
+import './style.css'
 
 
 function Header() {
   return (
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="#home">Karan's Portfolio</Navbar.Brand>
+            <Navbar.Brand>Karan's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/aboutme">About Me</Nav.Link>
+                <Nav.Link><Link to="/" className="link-container">Home</Link></Nav.Link>
+                <Nav.Link ><Link to="/aboutme" className="link-container">About Me</Link></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
